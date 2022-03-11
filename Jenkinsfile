@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'node --version'
                 echo 'building the application'
             }
         }
